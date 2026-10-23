@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# data and generated artefacts: never commit datasets or model files
+data/
+traces/
+traces_synthetic/
+results/
+*.npz
+*.task
+*.mp4
+*.avi

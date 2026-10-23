@@ -1,0 +1,8 @@
+numpy>=1.24
+opencv-python<5      # 4.x: the legacy Haar baseline needs cv2.CascadeClassifier, removed from OpenCV 5's main module
+mediapipe>=0.10.14   # Tasks API (FaceLandmarker); the old mp.solutions API is gone in recent releases
+pytest>=7            # tests only
+
+# Raspberry Pi only (vibration motor / buzzer outputs):
+# gpiozero
+# lgpio
